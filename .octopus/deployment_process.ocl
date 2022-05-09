@@ -1,0 +1,10 @@
+step "Azure Script CaC" {
+
+    action {
+        properties = {
+            Octopus.Action.Template.Id = "ActionTemplates-1194"
+            Octopus.Action.Template.Version = "0"
+        }
+        worker_pool_variable = ""
+    }
+}
